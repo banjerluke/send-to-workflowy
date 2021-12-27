@@ -84,7 +84,9 @@ In the meantime it's possible to add bookmarklets to [Chrome on Android](https:/
 
 ## Self-hosted
 
-The most secure way to use `send-to-workflowy` is to host it yourself. This repository can be deployed to Netlify with the following URL.
+The most secure way to use `send-to-workflowy` is to host it yourself. This repository can be deployed to Netlify with button below.
+
+You'll need to set the "Base directory" in Netlify's settings to `app`.
 
 The environment variables `SESSIONID` and `PARENTID` can be configured in the Netlify configuration to avoid the need to provide these to the web application in the browser.
 
